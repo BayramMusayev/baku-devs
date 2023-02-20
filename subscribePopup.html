@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>subscribe</title>
+    <title>subscribePopub</title>
 </head>
 
 <body>
@@ -63,6 +63,8 @@
         </div>
     </section>
 
+
+
     <section>
         <div class="container">
             <div class="cabinet">
@@ -87,7 +89,7 @@
                 <div class="subscribe" >
                        <p class="not">Siz abunə deyilsiniz.</p>          
                         <p class="abune"><i class="fa-solid fa-info"></i>Aylıq abunə haqqı 10 AZN təşkil edir.</p> 
-                        <button class="buttn">
+                        <button class="buttn"  onclick="openSubscribePopup()">
                             Abune ol
                             <i class="fa-solid fa-chevron-right"></i>
                         </button>
@@ -100,14 +102,48 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </button>
                 </div>
-
-
             </div>
 
-       
+            <div class="popupAll" id="subscribe-popup">
+                <div class="popup">
+                    <div class="closed" onclick="closeSubscribePopup()">
+                        <a><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    <div class="popupP">
+                        <p>Sizin abunəliyiniz 15.03.2022 tarixində bitir. Abunəliyinizi uzatmaq istədiyiniz tarixi seçin</p>
+                    </div>
+                    <div class="radioDiv">
+                        <div><input type="radio" name="" id="radio"><p>1 ay</p></div>
+                        <p>Məbləğ: 10 AZN</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="radioDiv">
+                        <div><input type="radio" name="" id="radio"><p>2 ay</p></div>
+    
+                        <p>Məbləğ: 20 AZN</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="radioDiv">
+                        <div><input type="radio" name="" id="radio"><p>3 ay</p></div>
+    
+                        <p>Məbləğ: 30 AZN</p>
+                    </div>
+                    <div class="divider"></div>
+                   <div class="popupBtb">
+                    <button class="buttn">
+                        Yenile
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                   </div>
+                </div>
+                <div class="pop-up-back"></div>
             </div>
+
+        </div> 
         </div>
     </section>
+
+
 
     <footer>
         <div class="container">
@@ -152,6 +188,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
