@@ -1084,6 +1084,16 @@ input::placeholder {
 .privateCabinet {
   display: flex;
   background: #fff;
+<<<<<<< HEAD
+=======
+}
+.cabinet {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0;
+}
+.privateCabinet {
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
   flex-direction: column;
   width: 250px;
   text-align: center;
@@ -1318,16 +1328,20 @@ input::placeholder {
 .closed i {
   color: #939393;
 }
+<<<<<<< HEAD
 
 .ressp {
   display: none;
 }
 
 /* notebook */
+=======
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
 @media (max-width: 1130px) {
   .card_all {
     width: 100%;
   }
+<<<<<<< HEAD
   .allKurs {
     flex-direction: column;
     width: 100%;
@@ -1373,14 +1387,20 @@ input::placeholder {
     padding: 0 !important;
   }
   .general {
+=======
+  .general{
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
     flex-wrap: wrap;
   }
   .textura-div {
     margin: 20px auto;
   }
+<<<<<<< HEAD
   .table {
     margin-left: 20px;
   }
+=======
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
 
   .select p {
     font-weight: 600;
@@ -1398,6 +1418,7 @@ input::placeholder {
     justify-content: center;
     align-items: center;
   }
+<<<<<<< HEAD
   .bakuDevsAbout {
     justify-content: center;
     flex-wrap: wrap;
@@ -1548,10 +1569,15 @@ input::placeholder {
 
 /* mobile */
 @media (max-width: 565px) {
+=======
+}
+@media (max-width: 600px) {
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
   .general {
     flex-direction: column;
     align-items: center;
   }
+<<<<<<< HEAD
   .kurs-list {
     padding: 0;
     margin: 0;
@@ -1561,6 +1587,8 @@ input::placeholder {
     line-height: 14px;
   }
 
+=======
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
   .general a {
     flex-direction: column;
   }
@@ -1577,6 +1605,7 @@ input::placeholder {
     width: 70px;
     height: 40px;
   }
+<<<<<<< HEAD
   .privateCabinet {
     width: 300px;
     margin: 20px;
@@ -1589,11 +1618,20 @@ input::placeholder {
     max-width: 200px;
     margin-top: 10px;
     margin: auto !important;
+=======
+    #one{
+    max-width: 120px;
+  }
+  #two{
+    max-width: 200px;
+    margin-top: 10px;
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
   }
 
   .kurs-list {
     flex-direction: column;
   }
+<<<<<<< HEAD
   .kurs-item {
     margin: 10px;
   }
@@ -1796,3 +1834,24 @@ input::placeholder {
     left: 1%;
   }
 }
+=======
+  .kurs-item{
+    margin: 10px;
+  }
+  .qeydiyat{
+    display: flex;
+    flex-direction: column;
+    margin: 15px ;
+
+  }
+  #one{
+    max-width: 130px;
+    margin: auto;
+  }
+  #two{
+    max-width: 200px;
+    margin-top: 10px;
+  }
+
+}
+>>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
