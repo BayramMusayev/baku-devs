@@ -15,7 +15,7 @@ section {
 }
 
 #head {
-  background-image: url("/img/bg.png");
+  background-image: url("./img/bg.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -37,6 +37,7 @@ section {
   border-radius: 40px;
   padding: 10px 20px;
   margin-right: 10px;
+  text-decoration: none;
 }
 #two {
   background-color: #008d96;
@@ -83,6 +84,10 @@ section {
 .select button i {
   font-size: 12px;
 }
+.girl img {
+  width: 100%;
+  height: auto;
+}
 
 /* section 2 */
 
@@ -92,7 +97,7 @@ section {
 .kurs {
   display: flex;
   justify-content: space-between;
-  padding: 70px 0;
+  padding: 20px 0;
 }
 .kurs h3 {
   font: 600 "Lora";
@@ -118,6 +123,7 @@ section {
 }
 
 .cards {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
@@ -200,7 +206,7 @@ section {
 
 .metn p {
   width: 100%;
-  font-size: 20px;
+  font-size: 20px;.cardd
   font-weight: 500;
   line-height: 35px;
   font-style: normal;
@@ -210,10 +216,12 @@ section {
 
 .all {
   display: flex;
+  flex-wrap: wrap;
 }
 .card_all {
   width: 50%;
   display: flex;
+  justify-content: center;
 }
 
 .card_all {
@@ -223,7 +231,7 @@ section {
 }
 .cardd {
   width: 49%;
-  height: 280px;
+  min-height: 280px;
   background: #fff;
   border-radius: 30px;
   transition: 0.5s all ease-in-out;
@@ -260,8 +268,6 @@ section {
 }
 
 #img {
-  width: 460px;
-  height: 460px;
   margin: auto;
   border-radius: 50%;
   background: #94cbcc;
@@ -303,10 +309,12 @@ section {
 .textura-div {
   position: relative;
   width: 50%;
+  width: 460px;
+  height: 460px;
 }
 
 footer {
-  background-image: url("/img/25101\ 1.png");
+  background-image: url("./img/25101\ 1.png");
   background-color: #024e4e;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -316,6 +324,7 @@ footer {
   display: flex;
   justify-content: space-between;
   padding-top: 70px;
+  flex-wrap: wrap;
 }
 .about img {
   margin-bottom: 20px;
@@ -429,9 +438,9 @@ input::placeholder {
 }
 
 #bgNav {
-  background: url("/img/Group\ 48.jpg");
+  background: url("./img/Group\ 48.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
 }
 
 #bgNav h3 {
@@ -441,7 +450,7 @@ input::placeholder {
   font-size: 30px;
   line-height: 40px;
   color: #fff;
-  padding-top: 10px;
+  padding: 10px;
 }
 #bgNav a {
   color: #fff;
@@ -524,6 +533,12 @@ input::placeholder {
 .tutorial {
   display: flex;
 }
+
+.tutorial img {
+  width: 50%;
+  height: auto;
+  margin-right: 10px;
+}
 .tutorial p {
   font-weight: bold;
   font-size: 26px;
@@ -559,7 +574,7 @@ input::placeholder {
 }
 
 .codlar {
-  width: 580px;
+  max-width: 580px;
   background: #cae6e8;
   padding: 20px 0 20px 35px;
   border-radius: 8px;
@@ -567,7 +582,7 @@ input::placeholder {
 }
 
 .dividerKurs.div {
-  width: 580px;
+  max-width: 580px;
 }
 
 #black {
@@ -580,7 +595,7 @@ input::placeholder {
 
 .allCavab {
   border: 1px solid #ece2cb;
-  width: 580px;
+  max-width: 580px;
   padding: 20px;
 }
 
@@ -678,10 +693,9 @@ input::placeholder {
   position: relative;
 }
 .notebook img {
-  width: 420px;
-  height: 300px;
-  justify-content: center;
-  align-items: center;
+  max-width: 420px;
+  width: 100%;
+  max-height: 300px;
   border-radius: 10px;
 }
 
@@ -714,6 +728,7 @@ input::placeholder {
 }
 
 .notebookBoss {
+  width: 50%;
   margin-left: 50px;
   margin-bottom: 50px;
 }
@@ -722,15 +737,16 @@ input::placeholder {
   font-weight: 600px;
   font-size: 41px;
   line-height: 50px;
-  width: 400px;
+  max-width: 400px;
   margin-bottom: 20px;
 }
 
 .contactBoss {
   position: relative;
   display: flex;
-  margin: 40px;
   gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .contactBoss .shape1 {
@@ -884,7 +900,7 @@ input::placeholder {
 }
 
 .sectionForm {
-  background-image: url(./img/Group\ 55.png);
+  background-image: url(../img/Group\ 55.png);
   background-repeat: no-repeat;
   object-fit: cover;
 }
@@ -929,6 +945,11 @@ input::placeholder {
 #inputFB i {
   color: #fff;
 }
+#inputFB {
+  display: flex;
+  padding: 30px 0px;
+}
+
 #inputG {
   display: flex;
   padding: 30px 0px;
@@ -954,15 +975,15 @@ input::placeholder {
   font-weight: 700px;
   line-height: 25px;
   font-size: 20px;
-  margin: 20px 0;
+  margin: 20px;
 }
 
 #emal {
-  width: 95%;
+  width: 100%;
   border-radius: 8px;
 }
 #password {
-  width: 95%;
+  width: 100%;
   border-radius: 8px;
 }
 .sheckPass {
@@ -1053,22 +1074,22 @@ input::placeholder {
 #qeydiyat {
   width: 290px;
 }
+
+.cabinet {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
 .privateCabinet {
   display: flex;
   background: #fff;
-}
-.cabinet {
-  display: flex;
-  justify-content: space-between;
-  margin: 80px 0;
-
-}
-.privateCabinet {
   flex-direction: column;
   width: 250px;
   text-align: center;
-  box-shadow: 0 0 23px -7px #008d96;
+  box-shadow: 0 0 0 -7px #008d96;
   border-radius: 20px;
+  box-shadow: 0 0 23px -7px #008d96;
 }
 
 .privateCabinet h4 {
@@ -1113,8 +1134,12 @@ input::placeholder {
 }
 
 .subscribe {
-  width: 30%;
-  margin: 0 50px;
+  margin: 0 auto;
+  border-radius: 8px;
+}
+
+.subNotAbune {
+  margin: 0 auto;
 }
 
 .not {
@@ -1148,17 +1173,16 @@ input::placeholder {
   color: #c89f9f;
 }
 
-.receipt{
-  background: #E5E5E5;
+.receipt {
+  background: #e5e5e5;
 }
 
 .table {
-  width: 780px !important;
+  max-width: 780px !important;
   margin-left: 80px;
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 0 23px -7px #008d96;
- 
 }
 .th {
   display: flex;
@@ -1178,32 +1202,30 @@ input::placeholder {
   justify-content: space-around;
 }
 
-.tr p{
+.tr p {
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
   padding: 20px;
-  
 }
-.dividertbl{
-  border-bottom: 1px solid #E3E3E3;
+.dividertbl {
+  border-bottom: 1px solid #e3e3e3;
   width: 90%;
   margin: auto;
 }
 
-.heart{
+.heart {
   position: absolute;
   color: #fff;
   right: 30px;
   top: 30px;
   display: flex;
-
 }
-.error{
+.error {
   display: flex;
   flex-direction: column;
 }
-.error h4{
+.error h4 {
   font-weight: 600;
   font-size: 40px;
   line-height: 50px;
@@ -1211,13 +1233,578 @@ input::placeholder {
   padding: 80px;
 }
 
-.error img{
+.error img {
   justify-content: center;
 }
-.btnDiv{
- display: flex;
- justify-content: center;
+.btnDiv {
+  display: flex;
+  justify-content: center;
 }
-.btnError{
+.popupAll {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+}
 
-} 
+.popup {
+  position: relative;
+  z-index: 100;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 600px;
+  border-radius: 20px;
+  background: #fff;
+}
+
+.pop-up-back {
+  background: #1b2221;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.4;
+}
+
+.popup .buttn {
+  margin: auto;
+}
+
+.popupP p {
+  width: 65%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  padding: 30px;
+  color: #939393;
+}
+.popup .divider {
+  width: 90%;
+  margin: 10px auto;
+}
+.radioDiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.radioDiv div {
+  display: flex;
+}
+
+.radioDiv input {
+  margin-right: 20px;
+}
+.popupBtb {
+  display: flex;
+  padding: 50px;
+}
+.popupBtb .buttn {
+  justify-content: center;
+}
+.closed {
+  position: absolute;
+  right: 30px;
+  top: 20px;
+  font-size: 30px;
+}
+.closed i {
+  color: #939393;
+}
+
+.ressp {
+  display: none;
+}
+
+/* notebook */
+@media (max-width: 1130px) {
+  .card_all {
+    width: 100%;
+  }
+  .allKurs {
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .like {
+    display: none;
+  }
+
+  .contactBoss img {
+    display: none;
+  }
+  .questionForm {
+    flex-direction: column;
+  }
+  .questionInput input {
+    margin-left: auto;
+  }
+  .formBoss textarea {
+    margin-left: 15px;
+  }
+
+  .privateCabinet {
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  .icons {
+    left: 5px;
+  }
+
+  .check {
+    width: 220px;
+  }
+  .tutorial p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .icon {
+    padding: 20px 0;
+  }
+  section {
+    padding: 0 !important;
+  }
+  .general {
+    flex-wrap: wrap;
+  }
+  .textura-div {
+    margin: 20px auto;
+  }
+  .table {
+    margin-left: 20px;
+  }
+
+  .select p {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+  }
+  .kurs {
+    flex-direction: column;
+  }
+  .kurs h3 {
+    margin: auto;
+    padding-bottom: 20px;
+  }
+  .kurs-list {
+    justify-content: center;
+    align-items: center;
+  }
+  .bakuDevsAbout {
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .about li {
+    font-size: 15px;
+    line-height: 11px;
+  }
+  .about p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .sectionForm h2 {
+    font-size: 34px;
+    line-height: 36px;
+  }
+  .cabinet {
+    justify-content: center;
+  }
+  /* .show{
+    position: fixed;
+    margin: 0px;
+    inset: 0px auto auto 0px;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+  } */
+}
+
+/* planset */
+@media (max-width: 768px) {
+  .card p {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  #bakuDevs h3 {
+    line-height: 36px;
+    font-size: 24px;
+    width: 100%;
+    margin-left: 10px;
+    line-height: 20px;
+    font-size: 20px;
+  }
+  .formBoss img {
+    display: none;
+  }
+
+  .formBoss img {
+    display: none;
+  }
+
+  .notebook {
+    margin-top: 20px;
+  }
+
+  .about li {
+    font-size: 15px;
+    line-height: 11px;
+  }
+  .about p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  #lorem {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .bakuDevsAbout {
+    flex-direction: column;
+  }
+  #bakuDevs h3 {
+    width: 100%;
+    margin-left: 20px;
+    line-height: 35px;
+    font-size: 23px;
+  }
+
+  .table {
+    margin-left: 0px;
+  }
+  .notebookBoss {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .registerForm input {
+    width: 100%;
+    height: 50px;
+  }
+
+  .registerForm {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #inputFB a {
+    width: 50px;
+    height: 50px;
+  }
+  #inputG a {
+    width: 50px;
+    height: 50px;
+  }
+
+
+  #qeydiyat {
+    width: 250px;
+  }
+  #one {
+    padding: 5px 10px;
+    margin: auto;
+  }
+  #two {
+    padding: 5px 10px;
+    margin: auto;
+  }
+
+  .dropdown.show {
+    position: inherit;
+  }
+
+  .dropdown ul.show {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: #fff !important;
+    transform: translate3d(0px, 40px, 1px) !important;
+    text-align: center;
+  }
+
+  .web {
+    display: none !important;
+  }
+  .ressp {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .general {
+    flex-direction: row !important;
+  }
+}
+
+/* mobile */
+@media (max-width: 565px) {
+  .general {
+    flex-direction: column;
+    align-items: center;
+  }
+  .kurs-list {
+    padding: 0;
+    margin: 0;
+  }
+  .card p {
+    font-size: 11px;
+    line-height: 14px;
+  }
+
+  .general a {
+    flex-direction: column;
+  }
+  .select p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+  }
+  #register {
+    width: 250px;
+    height: 40px;
+  }
+  #footerBtn {
+    width: 70px;
+    height: 40px;
+  }
+  .privateCabinet {
+    width: 300px;
+    margin: 20px;
+}
+  #one {
+    max-width: 120px;
+    margin: auto !important;
+  }
+  #two {
+    max-width: 200px;
+    margin-top: 10px;
+    margin: auto !important;
+  }
+
+  .kurs-list {
+    flex-direction: column;
+  }
+  .kurs-item {
+    margin: 10px;
+  }
+  .qeydiyat {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    gap: 10px;
+  }
+  #one {
+    max-width: 130px;
+    margin: auto;
+  }
+  #two {
+    max-width: 200px;
+    margin-top: 10px;
+  }
+  .sheckPass p {
+    margin-right: 0px;
+  }
+
+  #chkbox {
+    margin-right: 10px;
+  }
+  .registerForm form {
+    padding-left: 0px;
+  }
+
+  .tutorial p {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #lorem {
+    font-size: 14px;
+    line-height: 14px;
+  }
+  .icons {
+    left: 5px;
+  }
+
+  .questionInput input {
+    width: 300px;
+  }
+  .formBoss textarea {
+    width: 90%;
+  }
+  .th b {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 10px;
+  }
+  .tr p {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 10px;
+  }
+
+  .popupP p {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 10px;
+  }
+  #one {
+    margin: 0px;
+  }
+  .buttn {
+    margin-bottom: 20px;
+  }
+  .select button {
+    margin-bottom: 10px;
+  }
+  .cardAll {
+    margin: 15px;
+  }
+  #bakuDevs h3 {
+    font-size: 18px;
+    line-height: 18px;
+    padding: 15px;
+    margin: 0px;
+  }
+  #bakuDevs p {
+    line-height: 18px;
+    font-size: 14px;
+    padding: 15px 10px;
+  }
+  .cardd {
+    width: 230px;
+  }
+  .cardd h4 {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .textura-div img {
+    display: none;
+  }
+  .kursunDers {
+    width: 65%;
+}
+  #boy {
+    display: block;
+    margin: -10px;
+  }
+  #bgNav h3 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  .frontDers h5 {
+    margin-right: 20px;
+  }
+  .dividerKurs{
+    margin: 20px;
+  }
+  .tutorial {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tutorial p {
+    padding: 10px;
+  }
+  iframe {
+    width: 100%;
+    height: auto;
+}
+#bgNav h3 {
+  font-size: 15px;
+  line-height: 15px;
+  padding: 0px;
+  padding: 10px;
+}
+.contactEllipse{
+  display: none;
+}
+.contactShape{
+  display: none;
+}
+.notebook {
+  width: 70%;
+  padding: 10px;
+}
+.boss {
+  font-size: 22px;
+  line-height: 20px;
+  margin: 20px;
+}
+
+.contactBoss{
+  margin: 10px;
+}
+.general { 
+  margin: 10px;
+}
+.question h4 {
+  font-size: 30px;
+  line-height: 10px;
+  padding: 20px;
+}
+.question p {
+  font-size: 16px;
+  line-height: 20px;
+  padding-bottom: 10px;
+}
+.formBoss button{
+  margin: 20px;
+}
+.about {
+  padding-top: 40px;
+}
+#footerForm {
+  margin: 0px 0 30px;
+}
+
+.about p {
+  line-height: 20px;
+  margin: 0;
+}
+.about div:nth-child(1) {
+  margin-bottom: 20px;
+}
+.formBottom{
+  padding-bottom: 0px;
+}
+#inputFB{
+  padding: 0;
+}
+.sectionForm h2{
+  margin: 20px 0 0 0 ;
+}
+.select p span {
+  display: block;
+  padding-bottom: 10px;
+}
+.select p {
+  font-size: 20px;
+  line-height: 20px;
+  padding: 30px 0;
+}
+.batn {
+  margin: 20px auto 30px;
+}
+.textura-div {
+  margin: 20px auto 0;
+}
+
+}
+
+@media (max-width: 1800px) and (min-width: 1000px) {
+  .icons {
+    position: fixed;
+    top: 33%;
+    left: 1%;
+  }
+}

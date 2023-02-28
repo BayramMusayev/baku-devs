@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>error</title>
+    <title>subscribePopub</title>
 </head>
 
 <body>
@@ -52,31 +52,99 @@
                     </div>
                   </div>
                 <div>
-                    <a class="like" href="./index.html"><i class="fa fa-heart"></i>istek siyahi</a>
+                  <a class="like" href="./index.html"><i class="fa fa-heart"></i>istek siyahi</a>
                 </div>
                 <div class="qeydiyat web">
-                    <a href="./login.html" id="one"><i class="fa-solid fa-right-to-bracket"></i>Daxil ol</a>
-                    <a href="./register.html" id="two"><i class="fa-regular fa-registered"></i>Qeydiyatdan kec</a>
+                  <a href="./login.html" id="one" ><i class="fa-solid fa-right-to-bracket"></i>Daxil ol</a >
+                  <a href="./register.html" id="two"
+                    ><i class="fa-regular fa-registered"></i>Qeydiyatdan kec</a
+                  >
+                </div>
+              </div>
+        </div>
+    </section>
+
+
+
+    <section class="receipt">
+        <div class="container">
+            <div class="cabinet">
+                <div class="privateCabinet">
+                    <h4>Şəxsi kabinet</h4>
+                    <ul>
+                        <li><i class="fa-regular fa-user"></i><a href="/profil.html"> Profil</a></li>
+                        <li>
+                            <i class="fa-regular fa-address-book"></i><a href="/subscribe.html">Abunelik</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-address-book"></i><a href="receipts.html">Qəbzlər</a>
+                        </li>
+                        <li>
+                            <i class="fa-regular fa-heart"></i><a href="/wishList.html">İstək siyahısı</a>
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-right-from-bracket"></i><a href="/index.html">Çıxış</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="subscribe" >
+                       <p class="not">Siz abunə deyilsiniz.</p>          
+                        <p class="abune"><i class="fa-solid fa-info"></i>Aylıq abunə haqqı 10 AZN təşkil edir.</p> 
+                        <button class="buttn"  onclick="openSubscribePopup()">
+                            Abune ol
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                    </div>      
+                <div>
+                    <p class="abune"><i class="fa-solid fa-info"></i>Sizin abunəliyiniz mövcuddur.</p> 
+                    <p class="abune red"><i class="fa-solid fa-exclamation"></i>15.03.2022 tarixində abunəliyiniz bitir.</p>
+                    <button class="buttn">
+                        Yenile
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
                 </div>
             </div>
+
+            <div class="popupAll" id="subscribe-popup">
+                <div class="popup">
+                    <div class="closed" onclick="closeSubscribePopup()">
+                        <a><i class="fa-solid fa-xmark"></i></a>
+                    </div>
+                    <div class="popupP">
+                        <p>Sizin abunəliyiniz 15.03.2022 tarixində bitir. Abunəliyinizi uzatmaq istədiyiniz tarixi seçin</p>
+                    </div>
+                    <div class="radioDiv">
+                        <div><input type="radio" name="" id="radio"><p>1 ay</p></div>
+                        <p>Məbləğ: 10 AZN</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="radioDiv">
+                        <div><input type="radio" name="" id="radio"><p>2 ay</p></div>
+    
+                        <p>Məbləğ: 20 AZN</p>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="radioDiv">
+                        <div><input type="radio" name="" id="radio"><p>3 ay</p></div>
+    
+                        <p>Məbləğ: 30 AZN</p>
+                    </div>
+                    <div class="divider"></div>
+                   <div class="popupBtb">
+                    <button class="buttn">
+                        Yenile
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </button>
+                   </div>
+                </div>
+                <div class="pop-up-back"></div>
+            </div>
+
+        </div> 
         </div>
     </section>
 
-    <section>
-        <div class="container">
-            <div class="error">
-                <h4>Səhifə Tapılmadı</h4>
-                <img src="./img/error404.png" alt="error">
-            </div>
 
-            </button>
-            <div class="btnDiv">
-                <button id="qeydiyat"><i class="fa-solid fa-chevron-left"></i> Əsas səhifəyə qayı
-            </div>
-        </div>
-
-
-    </section>
 
     <footer>
         <div class="container">
@@ -121,6 +189,7 @@
             </div>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
