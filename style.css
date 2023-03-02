@@ -1084,19 +1084,6 @@ input::placeholder {
 .privateCabinet {
   display: flex;
   background: #fff;
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-=======
-}
-.cabinet {
-  display: flex;
-  justify-content: space-between;
-  margin: 80px 0;
-}
-.privateCabinet {
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   flex-direction: column;
   width: 250px;
   text-align: center;
@@ -1331,29 +1318,16 @@ input::placeholder {
 .closed i {
   color: #939393;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
 
 .ressp {
   display: none;
 }
 
 /* notebook */
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
 @media (max-width: 1130px) {
   .card_all {
     width: 100%;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .allKurs {
     flex-direction: column;
     width: 100%;
@@ -1399,29 +1373,14 @@ input::placeholder {
     padding: 0 !important;
   }
   .general {
-<<<<<<< HEAD
-=======
-=======
-  .general{
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
     flex-wrap: wrap;
   }
   .textura-div {
     margin: 20px auto;
   }
-<<<<<<< HEAD
   .table {
     margin-left: 20px;
   }
-=======
-<<<<<<< HEAD
-  .table {
-    margin-left: 20px;
-  }
-=======
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
 
   .select p {
     font-weight: 600;
@@ -1439,10 +1398,6 @@ input::placeholder {
     justify-content: center;
     align-items: center;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .bakuDevsAbout {
     justify-content: center;
     flex-wrap: wrap;
@@ -1593,21 +1548,10 @@ input::placeholder {
 
 /* mobile */
 @media (max-width: 565px) {
-<<<<<<< HEAD
-=======
-=======
-}
-@media (max-width: 600px) {
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .general {
     flex-direction: column;
     align-items: center;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .kurs-list {
     padding: 0;
     margin: 0;
@@ -1617,11 +1561,6 @@ input::placeholder {
     line-height: 14px;
   }
 
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .general a {
     flex-direction: column;
   }
@@ -1638,10 +1577,6 @@ input::placeholder {
     width: 70px;
     height: 40px;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .privateCabinet {
     width: 300px;
     margin: 20px;
@@ -1654,26 +1589,11 @@ input::placeholder {
     max-width: 200px;
     margin-top: 10px;
     margin: auto !important;
-<<<<<<< HEAD
-=======
-=======
-    #one{
-    max-width: 120px;
-  }
-  #two{
-    max-width: 200px;
-    margin-top: 10px;
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   }
 
   .kurs-list {
     flex-direction: column;
   }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
   .kurs-item {
     margin: 10px;
   }
@@ -1800,16 +1720,10 @@ input::placeholder {
     height: auto;
 }
 #bgNav h3 {
-<<<<<<< HEAD
   font-size: 15px;
   line-height: 15px;
   padding: 0px;
   padding: 10px;
-=======
-  font-size: 20px;
-  line-height: 20px;
-  padding-top: 16px;
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
 }
 .contactEllipse{
   display: none;
@@ -1826,13 +1740,7 @@ input::placeholder {
   line-height: 20px;
   margin: 20px;
 }
-<<<<<<< HEAD
 
-=======
-#bgNav h3 {
-    padding: 20px;
-}
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
 .contactBoss{
   margin: 10px;
 }
@@ -1875,7 +1783,6 @@ input::placeholder {
 .sectionForm h2{
   margin: 20px 0 0 0 ;
 }
-<<<<<<< HEAD
 .select p span {
   display: block;
   padding-bottom: 10px;
@@ -1891,10 +1798,6 @@ input::placeholder {
 .textura-div {
   margin: 20px auto 0;
 }
-=======
-
-
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
 
 }
 
@@ -1905,27 +1808,3 @@ input::placeholder {
     left: 1%;
   }
 }
-<<<<<<< HEAD
-=======
-=======
-  .kurs-item{
-    margin: 10px;
-  }
-  .qeydiyat{
-    display: flex;
-    flex-direction: column;
-    margin: 15px ;
-
-  }
-  #one{
-    max-width: 130px;
-    margin: auto;
-  }
-  #two{
-    max-width: 200px;
-    margin-top: 10px;
-  }
-
-}
->>>>>>> 9cdf763f0e97f43c7f8ccf3ab59f45943758a700
->>>>>>> 4c96f170712d4fb90ac668850ebbed919bbcef58
